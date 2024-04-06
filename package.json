@@ -1,0 +1,20 @@
+{
+  "name": "codigo_tfm",
+  "version": "1.0.0",
+  "description": "Código utilizado para la conexión con la API de Twitter y poder utilizarla",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David Marín",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "cron": "^3.1.6",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "fs": "^0.0.1-security",
+    "twitter-api-v2": "^1.16.1",
+    "twitter.js": "^0.14.0"
+  }
+}
